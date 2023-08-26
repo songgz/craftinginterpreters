@@ -3,34 +3,21 @@
 >
 > <cite>G.K. Chesterton by way of Neil Gaiman, <em>Coraline</em></cite>
 
-I'm really excited we're going on this journey together. This is a book on
-implementing interpreters for programming languages. It's also a book on how to
-design a language worth implementing. It's the book I wish I'd had when I first
-started getting into languages, and it's the book I've been writing in my <span
-name="head">head</span> for nearly a decade.
+我很高兴我们能一起踏上这段旅程。这是一本为编程语言实现解释器的书。这也是一本关于如何设计值得实现的语言的书。这是我刚开始接触语言时希望能有的一本书，也是我近十年来一直在<span name="head">脑子</span>里写的一本书。
 
 <aside name="head">
 
-To my friends and family, sorry I've been so absentminded!
+对于我的朋友和家人，很抱歉我一直不在身边！
 
 </aside>
 
-In these pages, we will walk step-by-step through two complete interpreters for
-a full-featured language. I assume this is your first foray into languages, so
-I'll cover each concept and line of code you need to build a complete, usable,
-fast language implementation.
+在这几页中，我们将逐步介绍一种全功能语言的两个完整解释器。我假定这是你第一次接触语言解释器，因此我将涵盖你构建一个完整、可用、快速的语言实现所需的每个概念和每行代码。
 
-In order to cram two full implementations inside one book without it turning
-into a doorstop, this text is lighter on theory than others. As we build each
-piece of the system, I will introduce the history and concepts behind it. I'll
-try to get you familiar with the lingo so that if you ever find yourself at a
-<span name="party">cocktail party</span> full of PL (programming language)
-researchers, you'll fit in.
+为了在一本书中塞进两个完整的实施方案，同时又不至于让这本书变成一本门外汉，这本书的理论篇幅比其他书要少。在构建系统的每一部分时，我都会介绍其背后的历史和概念。我会尽量让你熟悉这些行话，因此如果你发现自己参加了一个充满 PL（编程语言）研究人员的<span name="party">鸡尾酒会</span>，那么你也能融入其中。
 
 <aside name="party">
 
-Strangely enough, a situation I have found myself in multiple times. You
-wouldn't believe how much some of them can drink.
+说来也怪，我也曾多次遇到这种情况。你不会相信他们中的一些人有多能喝。
 
 </aside>
 
